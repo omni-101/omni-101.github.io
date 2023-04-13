@@ -1,13 +1,16 @@
 ---
-layout:     post
-title:      So, What is Jekyll?
-date:       2014-06-09 12:32:18
-summary:    Transform your plain text into static websites and blogs. Simple, static, and blog-aware.
+layout: post
+title: 'So, What is Jekyll?'
+date: {}
+summary: >-
+  Transform your plain text into static websites and blogs. Simple, static, and
+  blog-aware.
 categories: jekyll
 thumbnail: jekyll
 tags:
- - about
- - jekyll
+  - about
+  - jekyll
+published: true
 ---
 
 Jekyll is a tool for transforming your plain text into static websites and
@@ -19,3 +22,11 @@ and [Textile](http://en.wikipedia.org/wiki/Textile_(markup_language)) support.
 It also ties in nicely to [Github Pages](https://pages.github.com/).
 
 Learn more about Jekyll on their [website](http://jekyllrb.com/).
+
+And here's a dog!
+
+![dog.jpg]({{site.baseurl}}/_posts/dog.jpg)
+
+
+
+
