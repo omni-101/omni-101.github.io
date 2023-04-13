@@ -1,0 +1,21 @@
+# Site settings
+title: "Omniverse101"
+description: "Omniverse101"
+baseurl: ""
+url: "https://omni-101.github.io/"
+title_description: "Omniverse101"
+github_repository: https://github.com/omni-101/omni-101.github.io
+post_limit: 5
+
+# Footer
+footer_right: "&lt;/&gt; theme credits <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
