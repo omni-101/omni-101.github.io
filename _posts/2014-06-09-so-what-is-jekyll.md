@@ -25,4 +25,5 @@ Learn more about Jekyll on their [website](http://jekyllrb.com/).
 
 And here's a dog!
 
+
 ![dog.jpg]({{site.baseurl}}/_posts/dog.jpg)
