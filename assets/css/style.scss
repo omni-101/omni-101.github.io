@@ -298,6 +298,10 @@ ul {
 		width: 100%;
 		margin-top: -80px;
 		text-align: center;
+		img {
+			outline: 2px solid $light-blue;
+		outline-offset: 3px;
+		}
 	}
 
 	.author-text {
@@ -562,6 +566,8 @@ ul {
 
 			img {
 				height: 50px;
+				outline: 2px solid $light-blue;
+				outline-offset: 3px;
 
 				@media (min-width: $screen-sm-min) {
 					height: 70px;
