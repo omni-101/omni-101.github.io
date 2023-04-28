@@ -333,12 +333,24 @@ ul {
 	.gravatar {
 		width: 100%;
 		text-align: center;
+
+
+	}
+
+	.gravatar-rounded {
+		display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 2px solid $light-blue;
 		img {
-			outline: 2px solid $light-blue;
-			outline-offset: 3px;
-			-webkit-border-radius: 500px;
-			-moz-border-radius: 500px;
-			border-radius: 500px;
+
+			-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+    vertical-align: middle;
 		}
 	}
 
