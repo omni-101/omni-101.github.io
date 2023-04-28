@@ -8,7 +8,7 @@ github_repository: https://github.com/omni-101/omni-101.github.io
 post_limit: 5
 
 # Footer
-footer_right: "&lt;/&gt; theme credits <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+# footer_right: "&lt;/&gt; theme credits <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
