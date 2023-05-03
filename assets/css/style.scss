@@ -76,6 +76,7 @@ table {
 /* Globals */
 
 #home-icon {
+	z-index: 1;
 	position: absolute;
 	top: 0;
 	// float: left;
@@ -85,6 +86,7 @@ table {
 }
 
 #info-icon {
+	z-index: 1;
 	position: absolute;
 	top: 0;
 	// float: left;
