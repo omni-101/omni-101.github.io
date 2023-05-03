@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'So, What is Jekyll?'
-date: 2014-07-10T12:31:19.000Z
+date: {}
 summary: >-
   Transform your plain text into static websites and blogs. Simple, static, and
   blog-aware.
@@ -27,3 +27,9 @@ And here's a dog!
 
 
 ![dog.jpg]({{site.baseurl}}/images/dog.jpg)
+
+Now also a cat!
+
+![cat.jpg]({{site.baseurl}}/{{site.baseurl}}/images/cat.jpg)
+
+
