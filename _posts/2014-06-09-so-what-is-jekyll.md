@@ -30,6 +30,7 @@ And here's a dog!
 
 Now also a cat!
 
-![cat.jpg]({{site.baseurl}}/{{site.baseurl}}/images/cat.jpg)
+![cat.jpg]({{site.baseurl}}/images/cat.jpg)
+
 
 
