@@ -109,6 +109,14 @@ body {
 	margin: 0;
 }
 
+code {
+	border-radius: 4px;
+}
+
+div.article {
+	flex: none; /* Override bootstrap's flex */
+}
+
 a,
 a:active {
 	color: $light-blue;
@@ -987,3 +995,4 @@ td {
 	border: 1px solid $dark-blue;
 	;
 }
+
