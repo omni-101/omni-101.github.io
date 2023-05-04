@@ -88,6 +88,14 @@ q:after {
 	content: none;
 }
 
+@media (max-width: 767px) {
+	blockquote {
+	  padding-left: 35px;
+	}
+  }
+
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
