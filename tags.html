@@ -1,0 +1,62 @@
+---
+layout: default
+make-smaller-titles: true
+---
+
+<div class="container-fluid index">
+  <div class="row index all-posts">
+
+    <h2 class="header-h2" itemprop="headline"><a href="{{ site.baseurl }}/tags">Tags</a></h2>
+
+    <div class="col-md-12 content-panel articles">
+      {% for tag in site.tags %}
+        <div class="tags tag-container" data-tag="{{ tag[0] }}">
+          <small>
+            <i id="{{ tag[0] }}" class="fa fa-tags"></i>
+            {{ tag[0] }}
+          </small>
+        </div>
+        <ul class="tag-posts" data-tag="{{ tag[0] }}">
+          {% for post in tag[1] %}
+            <li>
+              <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function filterPostsByTag(tag) {
+    const tagContainers = document.querySelectorAll('.tag-container');
+    const tagPosts = document.querySelectorAll('.tag-posts');
+
+    tagContainers.forEach((container) => {
+      if (tag === '' || container.getAttribute('data-tag') === tag) {
+        container.style.display = 'block';
+      } else {
+        container.style.display = 'none';
+      }
+    });
+
+    tagPosts.forEach((postList) => {
+      if (tag === '' || postList.getAttribute('data-tag') === tag) {
+        postList.style.display = 'block';
+      } else {
+        postList.style.display = 'none';
+      }
+    });
+  }
+
+  function handleHashChange() {
+    const tag = window.location.hash.substring(1);
+    filterPostsByTag(tag);
+  }
+
+  window.addEventListener('hashchange', handleHashChange);
+  handleHashChange();
+</script>
