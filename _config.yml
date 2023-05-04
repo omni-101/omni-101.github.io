@@ -3,7 +3,7 @@ title: "Omniverse101"
 description: "Omniverse101"
 baseurl: ""
 url: "https://omni-101.github.io/"
-title_description: "Tutorials, guides, tips&tricks, snippets and everything related to NVIDIA Omniverse with one single intent: explaining things as clearly as possible. No bells, no whistles. Batteries included."
+title_description: "Tutorials, guides, tips & tricks, snippets and everything related to NVIDIA Omniverse with one single intent: explaining things as clearly as possible. No bells, no whistles. Batteries included."
 github_repository: https://github.com/omni-101/omni-101.github.io
 post_limit: 5
 
