@@ -1074,20 +1074,39 @@ td {
 	;
 }
 
+/* Make sure the tags page links are formatted and spaced properly */
 .post-link {
 	color: $light-blue !important;
 	text-decoration: none;
 	font-size: medium;
 	transition: color 0.3s ease;
-  }
+}
 
-  .post-link:hover,
-  .post-link:focus {
+.post-link:hover,
+.post-link:focus {
 	color: $dark-blue !important;
 	text-decoration: none;
-  }
+}
 
 
-  .tag-posts li {
+.tag-posts li {
 	margin-bottom: 0px !important;
-  }
+}
+
+/* Prevent MathJax elements from overflowing the central div */
+/* Hide scrollbars when there is enough space */
+.MathJax_Display {
+	overflow: hidden !important;
+}
+
+.MathJax_Display,
+.MathJax_Display>* {
+	max-width: 100% !important;
+	overflow-x: auto !important;
+}
+
+
+
+
+
+
