@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This website aims to provide high quality didactic content that explores the NVIDIA Omniverse platform.
+It uses a clear and explicative writing style suitable to read technical tutorials, copy&paste snippets to start hacking your way in or provide insights that could be hard to find anywhere else.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+If the content here provided is inaccurate, wrong or you think it could be better explained in some other way, please [do open an issue][1] at the main repo.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Credits for the web technologies used:
 
+* [Pixyll][2]
+* [Peppermint][3]
+* [Carte-noire][4]
 
-[jekyll-organization]: https://github.com/jekyll
+[1]: https://github.com/omni-101/omni-101.github.io/issues
+[2]: https://github.com/johno/pixyll
+[3]: https://noahfrederick.com/log/lion-terminal-theme-peppermint/
+[4]: https://github.com/jacobtomlinson/carte-noire
