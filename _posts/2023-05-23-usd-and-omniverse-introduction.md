@@ -36,7 +36,7 @@ Pixar has also open-sourced with the same license a reference implementation of 
 
 It has to be noted that this library doesn't provide any renderer in itself, i.e. even if you clone the repository, build it, generate the python bindings and write code to generate a cube
 
-```python
+{% highlight python %}
 from pxr import Usd, UsdGeom
 
 # Create a new stage
@@ -50,6 +50,6 @@ cube.GetExtentAttr().Set([(1.0, 1.0, 1.0)])
 
 # Save the stage
 stage.GetRootLayer().Save()
-```
+{% endhighlight %}
 
 you will have the opportunity to save this stage as a USD file, but you will not have any viewer to visually inspect and render that cube. USD defines another rather complex specification for a rendering architecture called _Hydra_ that renderer programmers can abide by to have their own renderer integrate with USD scenes. There is however a small tool called [usdView](https://docs.omniverse.nvidia.com/app_usdview/app_usdview/overview.html) in the same official USD repo based on PyQt that allows you to quickly render USD stages (mostly for debugging purposes and to understand how USD works).
