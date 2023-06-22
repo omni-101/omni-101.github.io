@@ -469,12 +469,8 @@ ul {
 				margin-bottom: 20px;
 				font-size: 24px;
 
-				a {
-					font-size: 24px !important;
-
-					&:hover {
-						color: $light-medium;
-					}
+				a:hover {
+					color: $light-medium;
 				}
 
 				small {
