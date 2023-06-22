@@ -1,14 +1,11 @@
 ---
 layout:     post
 title:      Introduction to USD and Omniverse
-date:       2023-05-15 10:00:04
 summary:    An introduction to USD and Omniverse
 categories: omniverse
 tags:
  - usd
  - omniverse
- - fabric
- - usdrt
 ---
 
 To understand Omniverse, first we need to understand what USD is (since Omniverse is based on USD).
