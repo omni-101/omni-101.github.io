@@ -106,6 +106,7 @@ def create_ground_plane(stage,
     planeGeom.CreatePurposeAttr().Set("guide")
     planeGeom.CreateAxisAttr().Set(UsdGeom.Tokens.y)
 
+    # Finally add the collision for the groundplane
     UsdPhysics.CollisionAPI.Apply(planeGeom.GetPrim())
 
     return planeXformSdfPath
@@ -136,6 +137,9 @@ def create_cube_mesh(stage,
     )
 
     cubePrim = stage.GetPrimAtPath(meshSdfPath)
+    # We'll apply a material to this cube mesh so blast can properly use that material
+    # when generating mesh fragments. Otherwise a crude solution to color up our mesh
+    # could have just been:
     #cubeMesh = UsdGeom.Mesh(cubePrim)
     #cubeMesh.CreateDisplayColorAttr().Set([rgbColorOfVisualizationMesh])
 
@@ -148,9 +152,10 @@ def create_cube_mesh(stage,
     # Assign a rigid body API to the cube, gravity and forces will now affect it
     rigidBodyAPI = UsdPhysics.RigidBodyAPI.Apply(cubePrim)
     massApi = UsdPhysics.MassAPI.Apply(cubePrim)
+    # Other mass API properties (defined in the physics schema) can be customized:
     # massApi.CreateMassAttr(1.0)
     # massApi.CreateDensityAttr(0.004) # never set too small a density
-    # here or fracturing won't work
+    # here or fracturing with blast won't work
 
     # Assign a collider API to the cube, the sphere will now collide
     # against other objects
