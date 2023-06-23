@@ -3,6 +3,7 @@ layout:     post
 title:      Omni.PhysX Colliders
 summary:    Types of colliders available in OmniPhysX
 categories: omniverse
+published: false
 tags:
  - usd
  - omniverse
