@@ -163,3 +163,5 @@ Starting PhysX up..
 ```
 
 The port is rather involved and will be community maintained and updated (**this is NOT an official NVIDIA supported port**). For any issues please open a GitHub issue to the vcpkg official repo and hopefully someone will take care of it.
+
+_Please note that this port's name is `omniverse-physx-sdk` and not just `physx`. Reason for this distinction being that the latter is a community maintained port of the previous generation of the PhysX engine supporting other platforms which were removed from the official supported list in the latest Omniverse PhysX (focused on the Omniverse platform experience). Users can now choose their preferred port for a new project while older projects relying on the `physx` port should not get any disruption by this change._
