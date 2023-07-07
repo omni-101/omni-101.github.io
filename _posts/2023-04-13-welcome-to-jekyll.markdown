@@ -25,6 +25,21 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+To link directly to full-sized images:
+
+[![Users having issues with PhysX linking](/assets/images/physx_linking_errors_diorama.png)](/assets/images/physx_linking_errors_diorama.png)
+
+And a workaround to have a caption as well:
+
+<figure>
+  <a href="/assets/images/physx_linking_errors_diorama.png" target="_blank">
+    <img src="/assets/images/physx_linking_errors_diorama.png" alt="Users having issues with PhysX linking">
+  </a>
+  <figcaption style="text-align: center; font-size: small; font-style: italic;">Your image description here</figcaption>
+</figure>
+
+
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
