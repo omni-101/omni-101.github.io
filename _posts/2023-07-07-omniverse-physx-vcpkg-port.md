@@ -18,7 +18,7 @@ The newest version of the open source [NVIDIA Omniverse PhysX](https://github.co
   <figcaption style="text-align: center; font-size: small; font-style: italic;">Compiling/linking PhysX properly can be nontrivial</figcaption>
 </figure>
 
-Luckily users can now use a [rather involved contributed vcpkg port](https://github.com/microsoft/vcpkg/pull/31506) to compile and link Omniverse PhysX with GPU acceleration support directly into their projects with just a few lines of CMake code.
+Luckily users can now use a [rather involved contributed vcpkg port](https://github.com/microsoft/vcpkg/pull/31506) to compile and link Omniverse PhysX with GPU acceleration support directly into their projects with just a few lines of CMake code [after installing vcpkg](https://vcpkg.io/en/getting-started.html).
 
 Here's a simple `hello_physx_vcpkg` project stub:
 
