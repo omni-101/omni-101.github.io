@@ -137,8 +137,8 @@ After that it's as simple as
 
 ```bash
 # Git-checkout, compile and install newest PhysX locally
-# One could also use 'vcpkg install omniverse-physx-sdk --triplet linux-x64' here
-~/hello_physx_vcpkg$ vcpkg install omniverse-physx-sdk
+# One could also use 'vcpkg install physx --triplet linux-x64' here
+~/hello_physx_vcpkg$ vcpkg install physx
 ...
 ~/hello_physx_vcpkg$ mkdir build
 ~/hello_physx_vcpkg$ cd build
@@ -152,7 +152,7 @@ or similarly on Windows
 ```bash
 # optionally specify vcpkg-root if cannot be found in PATH
 # --triplet x64-windows/x64-windows-static --vcpkg-root C:\Users\user\vcpkg
-~/hello_physx_vcpkg$ vcpkg install omniverse-physx-sdk
+~/hello_physx_vcpkg$ vcpkg install physx
 ...
 ~/hello_physx_vcpkg$ mkdir build
 ~/hello_physx_vcpkg$ cd build
@@ -164,4 +164,4 @@ Starting PhysX up..
 
 The port is rather involved and will be community maintained and updated (**this is NOT an official NVIDIA supported port**). For any issues please open a GitHub issue to the vcpkg official repo and hopefully someone will take care of it.
 
-_Please note that this port's name is `omniverse-physx-sdk` and not just `physx`. Reason for this distinction being that the latter is a community maintained port of the previous generation of the PhysX engine supporting other platforms which were removed from the official supported list in the latest Omniverse PhysX (focused on the Omniverse platform experience). Users can now choose their preferred port for a new project while older projects relying on the `physx` port should not get any disruption by this change._
+_If you need an older version of the PhysX SDK you can still use [versioning](https://github.com/microsoft/vcpkg/blob/master/docs/users/versioning.md) to checkout it directly_
