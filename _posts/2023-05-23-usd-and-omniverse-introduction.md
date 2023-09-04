@@ -63,7 +63,7 @@ Omniverse comprises technologies and applications to work with 3D graphics, coll
 
 The foundation of many Omniverse applications is called _Kit_ and it's an extensible framework and SDK developed by NVIDIA which provides a series of libraries and APIs to let users write _extensions_ (i.e. kit-based libraries written in Python, C++, both or in other languages as well) so that they can use NVIDIA's best-in-breed technologies (e.g. RTX raytracers, PhysX, AI integrations, etc.) to do useful graphical work for them. [Official docs for Kit can be found here](https://docs.omniverse.nvidia.com/prod_kit/prod_kit/kit-architecture.html).
 
-An example: a user can write a Kit extension ([here are lots of extensions used in Omniverse](https://docs.omniverse.nvidia.com/prod_extensions/prod_extensions.html)) which acts as a web service: whenever a HTTP request is received, the extension can fire up a complex 3D scene, generate the assets or the scene requested via the [HTTP request with chatGPT](https://www.youtube.com/watch?v=mFazJsjUUSo), render it and send the rendered result back to the user.
+An example: a user can write a Kit extension ([here are lots of extensions used in Omniverse](https://docs.omniverse.nvidia.com/extensions/latest/index.html)) which acts as a web service: whenever a HTTP request is received, the extension can fire up a complex 3D scene, generate the assets or the scene requested via the [HTTP request with chatGPT](https://www.youtube.com/watch?v=mFazJsjUUSo), render it and send the rendered result back to the user.
 
 ## Composer & Presenter
 
