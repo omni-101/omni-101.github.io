@@ -162,6 +162,19 @@ or similarly on Windows
 Starting PhysX up..
 ```
 
+## CPU version
+
+To install and build a CPU-only version of the PhysX engine (one which does not use CUDA), you can create a custom triplet file (e.g. create a text file `vcpkg/triplets/community/x64-linux-nocuda.cmake`) which inherits your desired triplet and ensures a CPU version is installed and built:
+
+    # Inherit all flags but also add a PX_GENERATE_GPU_PROJECTS as FALSE
+    # to compile a CPU-only version of the PhysX engine
+    include(${CMAKE_CURRENT_LIST_DIR}/../x64-linux.cmake)
+    set(PX_GENERATE_GPU_PROJECTS FALSE)
+
+If you build a CPU-only version, remember to drop the `unofficial::omniverse-physx-sdk::gpu-library` target from the targets above.
+
+## Support
+
 The port is rather involved and will be community maintained and updated (**this is NOT an official NVIDIA supported port**). For any issues please open a GitHub issue to the vcpkg official repo and hopefully someone will take care of it.
 
 _If you need an older version of the PhysX SDK you can still use [versioning](https://github.com/microsoft/vcpkg/blob/master/docs/users/versioning.md) to checkout it directly_
