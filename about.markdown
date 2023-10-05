@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+Created by [Marco Alesiani](https://www.linkedin.com/in/marcodiiga/).
+
 This website aims to provide high quality didactic content that explores the NVIDIA Omniverse platform.
 It uses a clear and explicative writing style suitable to read technical tutorials, copy&paste snippets to start hacking your way in or provide insights that could be hard to find anywhere else.
 
