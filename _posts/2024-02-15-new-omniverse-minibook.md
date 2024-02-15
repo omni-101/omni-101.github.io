@@ -13,7 +13,7 @@ tags:
 ---
 
 <figure>
-  <a href="https://learnusd.github.io" target="_blank">
+  <a href="https://learnomniverse.github.io" target="_blank">
     <img src="/assets/images/omniverse_rotating_logo.png" alt="A webGL Omniverse logo with multiscreens around it">
   </a>
   <figcaption style="text-align: center; font-size: small; font-style: italic;">A webGL Omniverse logo with multiscreens around it</figcaption>
